@@ -2,8 +2,8 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
     return (
-        <footer className="bg-[#d10f0f] text-white py-6">
-            <div className="container mx-auto flex flex-col items-center">
+        <footer className="bg-[#d10f0f] text-white py-6 fixed bottom-0 w-screen">
+            <div className="container mx-auto flex flex-col items-center w-max">
                 <p className="mb-4 text-center">
                     &copy; {new Date().getFullYear()} Portal Torii. Todos os direitos reservados.
                 </p>
